@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .product-wrapper {
+      margin-top: 90px;
+    }
+  </style>
+  <title>Store</title>
+</head>
+<body>
+  <header class="page-header">
+    <div class="wrapper">
+      <div class="header-logo">
+        <a href="index.html">My Store</a></div>
+      <nav class="center-nav">
+        <ul>
+          <li><a href="category.html">New Arrivals</a></li>
+          <li><a href="category.html">Men</a></li>
+          <li><a href="category.html">Women</a></li>
+          <li><a href="category.html">Sale</a></li>
+        </ul>
+      </nav>
+      <div class="right-nav">
+        <div class="search-box">
+          <label for="search"><a href="search-results.html"><i class="fas fa-search"></i></a></label>
+          <input type="search" id="search" class="search">
+        </div>
+        <div class="cart">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <span class="cart-items">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="category-wrapper">
+
+    <div class="category-section">
+      <div class="category-menu">
+        <p>New Arrivals</p>
+        <ul>
+          <li><a href="#">Hoodies</a></li>
+          <li><a href="#">Tees</a></li>
+          <li><a href="#">Shorts</a></li>
+          <li><a href="#">Joggings</a></li>
+        </ul>
+      </div>
+      <div class="filter-menu">
+        <p>Filters</p>
+        <ul>
+          <li><a href="#">Price</a>
+            <div class="slidecontainer">
+              <input type="range" min="20.00" max="100.00" value="40.00" class="slider" id="myRange">
+              <p>Price: $<span id="demo"></span>.00</p>
+            </div>
+          </li>
+          <li><a href="#">Ratings</a>
+            <div>
+              <input type="radio" id="5stars" name="rating" value="5stars">
+              <label for="5stars"> > 4 stars</label><br>
+              <input type="radio" id="4stars" name="rating" value="4stars">
+              <label for="4stars"> > 3 stars</label><br>
+              <input type="radio" id="3stars" name="rating" value="4stars">
+              <label for="3stars"> > 2 stars</label><br>
+              <input type="radio" id="2stars" name="rating" value="2stars">
+              <label for="2stars"> > 1 star</label><br>
+              <input type="radio" id="1star" name="rating" value="1star">
+              <label for="1star"> 1 star</label><br><br>
+              <input type="submit" value="Submit">
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="sort-menu">
+        <p>Sort</p>
+        <ul>
+          <li><a href="#">Price Low to High</a></li>
+          <li><a href="#">Price High to Low</a></li>
+          <li><a href="#">Newest</a></li>
+          <li><a href="#">Earliest</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="products">
+      <div class="page-title">
+        <h1>2 Products Found!</h1>
+        <p class="pagination">
+          Page 1 of 1 <span class="next-btn">Next</span>
+        </p>
+      </div>
+      <div class="product-wrapper">
+        <div class="product">
+          <div class="product-image">
+            <p>Quick View</p>
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/i1-9cfea66d-b519-4b29-8e43-ce4164e8c558/adapt-bb-2-tie-dye-basketball-shoe-vdFwKS.jpg" alt="" width="200">
+          </div>
+          <div class="product-meta">
+            <p class="product-name"><a href="product.html">Nike Adapt BB 2.0</a></p>
+            <p class="price" style="font-size: 15px;">$40.00</p>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-image">
+            <p>Quick View</p>
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/i1-9cfea66d-b519-4b29-8e43-ce4164e8c558/adapt-bb-2-tie-dye-basketball-shoe-vdFwKS.jpg" alt="" width="200">
+          </div>
+          <div class="product-meta">
+            <p class="product-name"><a href="product.html">Nike Adapt BB 2.0</a></p>
+            <p class="price" style="font-size: 15px;">$40.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer">
+    <div class="wrapper">
+      <div class="footer-col">
+        <h2>Support</h2>
+        <ul>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Shipping FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Product Menu</h2>
+        <ul>
+          <li><a href="#">Hoodies</a></li>
+          <li><a href="#">Tees</a></li>
+          <li><a href="#">Shorts</a></li>
+          <li><a href="#">Joggings</a></li>
+        </ul>
+      </div>
+      <div class="footer-col socials">
+        <a href="#" class="fb"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="tw"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="gp"><i class="fab fa-google-plus"></i></a>
+      </div>
+      <div class="footer-col">
+        <h2>My Store</h2>
+        <p class="copy">&copy 2021. Web Development Project</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value; // Display the default slider value
+
+    // Update the current slider value (each time you drag the slider handle)
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+
+
+  </script>
+  <script src="js/search.js"></script>
+
+</body>
+</html>
